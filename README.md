@@ -1,2 +1,2 @@
-# hello_world
+# Small Programs
 learning to use github
