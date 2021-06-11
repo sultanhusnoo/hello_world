@@ -1,0 +1,25 @@
+
+<!doctype html>
+<html lang="en">
+	
+	<head>
+		<title> {{ the_title }} </title>
+		<link rel="stylesheet" type="text/css" href="/static/hf.css" >
+	</head>
+
+	<body>
+		<ul>
+			<li><a href="#"> Link? </a></li>
+			<li><a href="#"> Link? </a></li>
+			<li><a href="/viewlog"> View Log</a></li>
+			<li><a class="active" href="/entry"> Entry </a></li>
+			<li><a class="active" href="/"> Home </a></li>
+		</ul>
+		
+		{% block body %}
+		
+		{% endblock %}
+	
+	</body>
+
+</html>
